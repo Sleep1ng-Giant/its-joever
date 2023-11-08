@@ -9,6 +9,11 @@
 <!-- TODO: Put video in a large player and create a dynamic background for the entire site -->
     <body>
         <div class="video-container">
+            <div class="blur-container">
+                <video autoplay muted loop id="background-video-blur">
+                    <source src="test.mp4" type="video/mp4">
+                </video>
+            </div>
             <video autoplay muted loop id="background-video">
                 <source src="test.mp4" type="video/mp4">
             </video>
@@ -21,5 +26,6 @@
                 <h1> WE'RE SO BACK</h1>
             </div>
         </div>
+        <script src="script.js"></script>
     </body>
 </html>
